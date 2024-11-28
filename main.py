@@ -1,4 +1,4 @@
-# Create a snake body
+# 1. Create a snake body
 
 from turtle import Turtle, Screen
 
@@ -14,11 +14,11 @@ for position in starting_positions:
     snake_segment.color("white")
     snake_segment.goto(position)
 
-# Move the snake
-# Control the snake
-# Detect collision with food
-# Create a scoreboard
-# Detect collision with wall
-# Detect collision with tail
+# 2. Move the snake
+# 3. Control the snake
+# 4. Detect collision with food
+# 5. Create a scoreboard
+# 6. Detect collision with wall
+# 7. Detect collision with tail
 
 screen.exitonclick()
