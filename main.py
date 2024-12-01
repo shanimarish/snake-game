@@ -10,6 +10,12 @@ screen.tracer(0)
 
 snake = Snake()
 
+screen.listen()
+screen.onkey(fun= snake.up, key="Up")
+screen.onkey(fun= snake.down,key="Down")
+screen.onkey(fun= snake.left,key="Left")
+screen.onkey(fun=snake.right,key="Right")
+
 game_is_on = True
 while game_is_on:
     screen.update()
@@ -17,7 +23,6 @@ while game_is_on:
 
     snake.move()
 
-# 3. Control the snake
 # 4. Detect collision with food
 # 5. Create a scoreboard
 # 6. Detect collision with wall
